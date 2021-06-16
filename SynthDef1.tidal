@@ -1,0 +1,14 @@
+
+
+d1 $ slow 2 $ n (arpg "'minor7 [0,3,4,5,11]") #s "puls" #gain 0.7 #end 0.5 #pan (range (sine*10) (sine/10) $ fast 3 $ sine)
+
+hush
+
+d2 $ s "pulz" #gain 0.5 #pan (range (sine/20) (sine*20) $ fast 3 $ sine)
+
+d3 $ trunc 0.34 $ s "kd*8" #pan (range (sine+20) (sine-20) $ fast 3 $ sine) #delay (choose [0.5,0.76,0.3])
+
+d4 $ s "sn" #room 0.03 #sz 0.01
+
+
+hush
