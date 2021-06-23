@@ -1,0 +1,10 @@
+d1 $ every 2 (|+|cutoff "<2000>") $ up "<g'maj9 a'maj9 d'maj7> fmaj9" #s "bass1*2" #up "0 1 2 3 4 5" #speed "-2" #pan sine
+
+d2 $ struct (ascii "g") $ s "[bassdm*2]"
+
+d3 $ struct (ascii "i") $ s "hh*4"
+
+d4 $ struct (ascii "e") $ s "~ ~ sn/2"
+
+
+hush

@@ -1,0 +1,14 @@
+-- LENGTH: ??
+-- KEY: ??
+-- GENRE/STYLE: ??
+-- SOUNDS: ??
+
+
+do
+  let funk = jux (rev . (|*speed "<-6 9 -2>"))
+  let melody = "[0 ~ ~ 2][~ ~ 4 7][9 0][~ 9]"
+  d2
+    $ stack [funk $ s "puls" +n melody]
+    #gain 1
+
+hush  

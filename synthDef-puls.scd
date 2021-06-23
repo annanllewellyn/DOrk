@@ -1,6 +1,6 @@
 (
 SynthDef(\puls, {
- |out,sustain=1,freq=440,speed=1,begin=0,end=1,pan,accelerate,offset,clamp=1|
+ |out,sustain=1,freq=100,speed=1,begin=0,end=1,pan,accelerate,offset,clamp=1|
  var line, env, volume, tone, outAudio;
  freq=freq*speed;
  line = Line.ar(begin,end,sustain/speed,doneAction: Done.freeSelf);
